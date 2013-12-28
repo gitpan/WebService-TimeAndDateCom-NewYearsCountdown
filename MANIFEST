@@ -1,0 +1,15 @@
+Build.PL
+Changes
+examples/countdown.pl
+lib/WebService/TimeAndDateCom/NewYearsCountdown.pm
+MANIFEST
+README
+LICENSE
+t/00-load.t
+t/01-methods.t
+xt/pod-coverage.t
+xt/pod.t
+xt/kwalitee.t
+Makefile.PL
+META.yml
+META.json
