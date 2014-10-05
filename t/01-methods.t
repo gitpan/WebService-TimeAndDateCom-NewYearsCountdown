@@ -31,7 +31,7 @@ SKIP: {
         $all_data,
         array_each(
             {
-                'tz' => re('^(ACDT|ACST|AEDT|AEST|AFT|AKST|ANAT|ART|AST|AoE|BOT|BRST|BST|CET|CHADT|CST|CST|CVT|CWST|EET|EST|GMT|HAST|IRST|IST|JST|LINT|MART|MMT|MSK|MST|NFT|NPT|NST|NUT|NZDT|PST|UZT|VET|WIB)$'),
+                'tz' => re('^(ACDT|ACST|ACWST|AEDT|AEST|AFT|AKST|ANAT|ART|AST|AoE|BOT|BRST|BST|CET|CHADT|CST|CST|CVT|CWST|EET|EST|GMT|GST|HAST|IRST|IST|JST|LINT|MART|MMT|MSK|MST|NFT|NPT|NST|NUT|NZDT|PST|UZT|VET|WIB)$'),
                 'time_left' => re('.'),
                 'countries' => re('.'),
                 'cities' => re('.'),
@@ -57,7 +57,7 @@ SKIP:{
     cmp_deeply(
         $est,
         {
-            'tz' => re('^(ACDT|ACST|AEDT|AEST|AFT|AKST|ANAT|ART|AST|AoE|BOT|BRST|BST|CET|CHADT|CST|CST|CVT|CWST|EET|EST|GMT|HAST|IRST|IST|JST|LINT|MART|MMT|MSK|MST|NFT|NPT|NST|NUT|NZDT|PST|UZT|VET|WIB)$'),
+            'tz' => re('^(ACDT|ACST|ACWST|AEDT|AEST|AFT|AKST|ANAT|ART|AST|AoE|BOT|BRST|BST|CET|CHADT|CST|CST|CVT|CWST|EET|EST|GMT|GST|HAST|IRST|IST|JST|LINT|MART|MMT|MSK|MST|NFT|NPT|NST|NUT|NZDT|PST|UZT|VET|WIB)$'),
             'time_left' => re('.'),
             'countries' => re('.'),
             'cities' => re('.'),

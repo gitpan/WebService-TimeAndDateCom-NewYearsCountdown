@@ -1,5 +1,8 @@
 Revision history for WebService-TimeAndDateCom-NewYearsCountdown
 
+1.002   2014-10-05
+        - Fixed RT#98487 (failing tests)
+
 1.001   2013-12-27
-        First version, released on an unsuspecting world.
+        - First version, released on an unsuspecting world.
 

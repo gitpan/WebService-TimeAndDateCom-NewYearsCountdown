@@ -3,7 +3,7 @@ package WebService::TimeAndDateCom::NewYearsCountdown;
 use Moo;
 use Mojo::DOM;
 use LWP::UserAgent;
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 
 use constant TIME_AND_DATE_SITE_URL
     => 'http://www.timeanddate.com/counters/multicountdown.html';
